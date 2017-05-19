@@ -1,0 +1,107 @@
+.bodyKids {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,Verdana, sans-serif;
+  font-size: 18px;
+  background: url('imgs/kidsBack5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  cursor: url('imgs/shuriken.png'), auto;
+}
+
+.kidsMain {
+  margin-top: 30px;
+}
+
+main img {
+  width: 7%;
+  z-index: -1;
+  position: absolute;
+  min-width: 40px;
+}
+
+#imgKid1 {
+  top: 10%;
+  left: 10%;
+}
+
+#imgKid2 {
+  bottom: 0;
+  left: 3%;
+}
+
+#imgKid3 {
+  top: 70%;
+  right: 10%;
+}
+
+#imgKid4 {
+  bottom: 30%;
+  left: 25%;
+}
+
+#imgKid5 {
+  top: 35%;
+  left: 55%;
+}
+
+#imgKid6 {
+  bottom: -15%;
+  right: 3%;
+}
+
+#imgKid7 {
+  bottom: 10%;
+  right: 40%;
+}
+
+#imgKid8 {
+  bottom: -20%;
+  right: 50%;
+}
+
+#imgKid9 {
+  top: 5%;
+  right: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.4em;
+  text-shadow: 5px 5px 5px black;
+}
+
+p {
+  width: 80%;
+  margin: 20px auto;
+  text-shadow: 5px 5px 5px black;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#nakovDiv {
+  width: 100px;
+}
+
+@media only screen and (max-width:600px) {
+  .bodyKids {
+    background: url('imgs/kidsBack400.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  #imgKid7 {
+    bottom: -60%;
+  }
+
+  #imgKid6 {
+    bottom: -85%;
+  }
+
+  #imgKid2 {
+    bottom: -40%;
+  }
+}
